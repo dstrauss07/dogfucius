@@ -1,3 +1,22 @@
 body {
     background-color:blue;
 }
+/*  Navigation Menu */
+.menu {
+    list-style-type: none;  
+    text-align:center;
+    background-color:black;
+}
+.navitem{
+    display:inline-block;
+    padding: 0.5% 2%;
+}
+.navitem a{
+    color: white;
+}
+.navitem a:hover{
+    color: yellow;
+}
+.navitem a:active{
+    color: red;
+}
