@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato|Roboto');
+
 body {
     background-color:blue;
 }
@@ -6,6 +8,8 @@ body {
     list-style-type: none;  
     text-align:center;
     background-color:black;
+    font-family: 'Gloria Hallelujah', cursive, sans-serif;
+    font-size: 1.2rem;
 }
 .navitem{
     display:inline-block;
