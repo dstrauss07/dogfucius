@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato|Roboto|Shadows+Into+Light');
 
 body {
-    background-color:blue;
+    background-color:#053E73;
 }
+
+div{
+    padding:0;
+    margin:0;
+    float:left;
+    }
+
+.cleared {
+    clear: left;
+  }
+
 /*  Navigation Menu */
 .menu {
     list-style-type: none;  
@@ -24,3 +35,51 @@ body {
 .navitem a:active{
     color: red;
 }
+
+/* Home Page  */
+
+.textbox {
+    margin-left:8%;
+    width: 84%;
+    background-color: gray;
+    }
+
+.textbox h2 {
+    font-size: 2.3rem;
+    text-decoration:underline;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+
+.textbox p{
+    font-family: "Gloria Hallelujah",sans-serif;
+    font-size: 1rem;
+    padding: 1.5% 2%;    
+}
+.textbox img{
+   padding: 0% 2% 2% 2%;
+}
+.textbox span{
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    }
+
+.left {
+    float:left;
+}
+.lefttext {
+    float:left;
+    width:50%;
+    padding-left:2%;
+   }
+
+#petsitting {
+    background-color:#EBEFA8;
+    color:#111110;
+}
+#petphotos{
+    background-color:#7C6DDC;
+    color:#111110;
+    }
+
