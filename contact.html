@@ -16,25 +16,49 @@
        <li class="navitem"><a href="contact.html">Contact Us</a></li>
    </ul>    
    <div class="container">
-        <div class="textbox">
-            <div id="petsitting">
-            <h2>DogFucius Pet Sitting</h2>
-                <div>
-                <img class="left" src="images/hunter1.jpg">
-                <p>Let's face it, your pet is pretty much the most valuable member of your family. Sure they may not have a job or cook you dinner or stay awake for 95% of the day or night... but they do something much more important.  They love you with every fiber of their wagging, purring, furry bodies. Why do we love our animals so much, even when they bark at the car door 7 houses up the street at 3AM on a Monday, drop a dead bird on your face at 330AM on a Tuesday, or hump their bed when you have your boss over for a stuffy dinner party... the world may never know, and really, who cares. You love these silly guys and that's why you should only leave them at home with people you trust to treat them like the MVPs they are. DogFucius Pet Sitters are those people. <br> <span>(Yes we just talked about ourselves in the 3rd person...sorry about that.)</span></p>
-                <div class="cleared"></div>
-                </div>
+    <div class="emailform">
+        <form>
+            <div class="form-group">
+                    <label for="name" >Enter your name: </label>
+                    <input type="text" name="name" id="name" placeholder="Your Name Here" required>
             </div>
-
-            <div id="petphotos">
-            <h2>Pawsome Pet Photos</h2>
-                <div class="lefttext">
-                <p> Okay, so you probably take a few pictures of your dog or cat right.  Okay, so maybe you have a hard drive full of pictures of you dog or cat, no space on your iphone and 17 scrapbooks full of dog and cat pictures.  That's all well and good, but do you really have enough?  Is it ever enough?  The answer is no, no it is not.  If you need more dog or cat photos, which you do, we offer the high-quality professional photo shoot your all-star pet deserves.  </p></div>
-                <img class="left" src="images/hunter2.jpg">
-                <div class="cleared"></div>
-                </div>
+            <div class="form-group">
+                    <label for="email"   >Email Address </label>
+                    <input type="email" name="email" id="email" placeholder="youremail@domain.com" required>
             </div>
-   </div> 
+            <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div class="form-group">
+                    <label for="date" >What Day</label>
+                    <input type="date" name="date" id="date" placeholder="mm/dd/yyyy" required>
+            </div>
+            <div class="form-group">
+                    <label for="service">Service Requested</label>
+                    <select name="service" id="service" required>
+                            <option value="default" selected>Select A Service</option> 
+                            <option value="am">Morning Visit- 20$</option> 
+                            <option value="pm" >Afternoon Visit - 20$</option>
+                            <option value="eve">Evening Visit - 20$</option>
+                            <option value="full">3 daily visits - No Overnight - 55$</option>
+                            <option value="ovn">3 daily visits + Overnight - 100$ </option>
+                            <option value="pht">Pro Photo Shoot - 50$ </option>
+                    </select>
+            </div>
+            <div class="form-group">
+                    <label for="photos">Send Me Photos!</label>
+                <input type="checkbox" name="photos" id="photos">
+            </div>
+            <div class="form-group">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments"></textarea>
+            </div>
+            <div class="form-group">
+                    <button id="submitbutton" onclick="window.location.href='submitted.html'">Submit Request</button>
+            </div>
+        </form>
+    </div>
         
     </body>
 
