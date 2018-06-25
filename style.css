@@ -4,9 +4,13 @@ body {
     background-color:#053E73;
 }
 
-div{
-    padding:0;
-    margin:0;
+h2 {
+    font-size: 2.3rem;
+    text-decoration:underline;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+.left {
     float:left;
     }
 
@@ -41,15 +45,7 @@ div{
 .textbox {
     margin-left:8%;
     width: 84%;
-    background-color: gray;
     }
-
-.textbox h2 {
-    font-size: 2.3rem;
-    text-decoration:underline;
-    text-align: center;
-    font-family: 'Shadows Into Light', cursive, sans-serif;
-}
 
 .textbox p{
     font-family: "Gloria Hallelujah",sans-serif;
@@ -58,6 +54,7 @@ div{
 }
 .textbox img{
    padding: 0% 2% 2% 2%;
+   max-width:46%;
 }
 .textbox span{
     font-family: 'Shadows Into Light', cursive, sans-serif;
@@ -65,13 +62,10 @@ div{
     font-style: italic;
     }
 
-.left {
-    float:left;
-}
 .lefttext {
-    float:left;
-    width:50%;
+    width:48%;
     padding-left:2%;
+    float:left;
    }
 
 #petsitting {
@@ -83,3 +77,24 @@ div{
     color:#111110;
     }
 
+#prices h2{
+    color:white;
+}
+#prices th,td{
+    padding: 3% 0%;
+    font-family: "Gloria Hallelujah",cursive,sans-serif;
+}
+#prices th {
+    background-color: #4CAF50;
+    color: white;
+    }
+#prices td {
+   background-color: #4CAF50;
+   color: white;
+        }
+
+#prices table {
+    margin-left:10%;
+    width: 80%;
+   text-align: center;
+}
