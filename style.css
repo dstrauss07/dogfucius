@@ -4,6 +4,13 @@ body {
     background-color:#053E73;
 }
 
+footer{
+    background-color:black;
+    color:white;
+    font-family:arial,Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
 h2 {
     font-size: 2.3rem;
     text-decoration:underline;
@@ -77,6 +84,7 @@ h2 {
     color:#111110;
     }
 
+/*Services Page*/
 #prices h2{
     color:white;
 }
@@ -85,11 +93,11 @@ h2 {
     font-family: "Gloria Hallelujah",cursive,sans-serif;
 }
 #prices th {
-    background-color: #4CAF50;
+    background-color: #801812;
     color: white;
     }
 #prices td {
-   background-color: #4CAF50;
+   background-color: #1B70BF;
    color: white;
         }
 
@@ -98,3 +106,61 @@ h2 {
     width: 80%;
    text-align: center;
 }
+
+/*Photos Page*/
+
+.photoframe img{
+    width:33%;
+    border: 2px solid red;
+    border-radius: 100%;
+}
+
+#dogpic1 {
+position: relative;
+top: 25%;
+left: 33%;
+width:100vw;
+}
+#dogpic2 {
+    position: absolute;
+    top:55%;
+    left: 5%;
+    width:100vw;
+    }
+ #dogbio {
+        background-color:red;
+        color:black;
+        padding: 1%;
+        border: 2px dashed black;
+        border-radius: 100%;
+        position: absolute;
+        width:20%;
+        top: 75%;
+        left: 40%;
+        font-family: "Gloria Hallelujah",cursive,sans-serif;
+        text-align:center;
+        font-size: 1.2rem;
+        overflow: visible;
+        
+        }
+    #dogbio a{
+        text-decoration:none;
+        color:white;
+    }
+    #dogbio a:hover{
+        text-decoration:none;
+        color:yellow;
+    }
+        
+ #dogpic3 {
+        position: absolute;
+        top:55%;
+        left: 63%;
+        width:100vw;
+        }
+ #dogpic4 {
+        position: absolute;
+        top:93%;
+       left: 33%;
+        width:100vw;
+          }
