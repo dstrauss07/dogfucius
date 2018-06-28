@@ -24,6 +24,9 @@ h2 {
 .cleared {
     clear: left;
   }
+.clearright{
+    clear:right;
+}
 
 /*  Navigation Menu */
 .menu {
@@ -164,3 +167,54 @@ width:100vw;
        left: 33%;
         width:100vw;
           }
+
+/*Testimonials */
+#testimonials {
+    background-image:  url("images/dogbackground.jpg");
+    background-color:#D5D0F0;
+    background-position: center;
+    background-repeat:no-repeat;
+    font-family: "Gloria Hallelujah",sans-serif;
+        font-weight: 900;
+    padding: 3% 0 5% 0
+  }
+
+#test1{
+    color:#2444B3;
+    padding: .5% 0 3% 7%;
+    font-size:1.54rem;
+    }
+#test2{
+    color:#C03913;
+    padding-left: 12%;
+    font-size:1rem;
+}
+#test3{
+    color:#335909;
+    padding: 0 0 3% 5%;
+    font-size:1.34rem;
+  }
+  #test4{
+    color:#F41A8A;
+    font-size:1.8rem;
+    padding: 0 0 1% 50%;
+ 
+}
+  #test5{
+    color:#C03913;
+    padding-left: 18%;
+    font-size:1rem;
+}
+
+#test6{
+    color:#335909;
+    padding: 3% 0 3% 8% ;
+    font-size:1.34rem;
+    
+}
+#test7{
+    color:#2444B3;
+    text-align:center;
+    font-size:2rem;
+    
+}
