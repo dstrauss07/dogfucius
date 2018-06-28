@@ -101,7 +101,8 @@ h2 {
     font-family: "Gloria Hallelujah",cursive,sans-serif;
     }
 #prices td {
-   background-color: rgb(110, 182, 248);
+   background-color: rgb(152, 202, 248);
+ /*  background-color:#EBEFA8;*/
    color: black;
     font-size:1rem;
    font-family: 'Lato', cursive, sans-serif;
@@ -229,8 +230,9 @@ width:100vw;
     font-size:.8rem;
 }
 .merchbox {
-    margin-left:12.5%;
-    width: 75%;
+    margin-left:15%;
+    padding: 0 5%;
+    width: 60%;
     background-color:#801812;
     text-align:center;
     }
@@ -249,6 +251,7 @@ width:100vw;
     min-width:250px;
     max-width:350px;
     height:50vh;
+    max-height:400px;
 }
 
 .merchitem span{
