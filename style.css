@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato|Roboto|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato:400i|Roboto|Shadows+Into+Light');
 
 body {
     background-color:#053E73;
@@ -21,7 +21,7 @@ h2 {
     float:left;
     }
 
-.cleared {
+.clearleft {
     clear: left;
   }
 .clearright{
@@ -93,15 +93,19 @@ h2 {
 }
 #prices th,td{
     padding: 3% 0%;
-    font-family: "Gloria Hallelujah",cursive,sans-serif;
 }
 #prices th {
     background-color: #801812;
     color: white;
+    font-size:1.1rem;
+    font-family: "Gloria Hallelujah",cursive,sans-serif;
     }
 #prices td {
-   background-color: #1B70BF;
-   color: white;
+   background-color: rgb(110, 182, 248);
+   color: black;
+    font-size:1rem;
+   font-family: 'Lato', cursive, sans-serif;
+   font-style:italic;
         }
 
 #prices table {
@@ -216,5 +220,108 @@ width:100vw;
     color:#2444B3;
     text-align:center;
     font-size:2rem;
-    
+  }
+/*Merchandise */
+#disclaimer{
+    background:white;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:.8rem;
+}
+.merchbox {
+    margin-left:12.5%;
+    width: 75%;
+    background-color:#801812;
+    text-align:center;
+    }
+
+.merchitem{
+    float:left;
+    background-color: #B2BF12;
+    padding: .5%;
+    margin:.5%;
+    font-family: "Gloria Hallelujah",sans-serif;
+    font-size: .9rem;
+}
+
+.merchitem img{
+    width:25vw;
+    min-width:250px;
+    max-width:350px;
+    height:50vh;
+}
+
+.merchitem span{
+    color:maroon;
+}
+
+.merchitem button{
+    background-color:blue;
+    color:white;
+}
+
+/* Contact */
+.emailform {
+    text-align: center;
+    width:60%;
+    margin-left:20%;
+    background-color:#D5D0F0
+}
+.form-group label{
+    font-family: "Gloria Hallelujah",sans-serif;
+    color: #C03913;
+}
+.form-group input,select{
+width:40%;
+font-family: "Gloria Hallelujah",sans-serif;
+text-align:center;
+}
+.form-group textarea{
+width:75%;
+height:100px;
+overflow:scroll;
+font-family: "Lato",sans-serif;
+padding:1%;
+}
+#submitbutton input{
+    background-color:Green;
+    color:white;
+}
+.contactbox{
+   text-align:center;
+    font-family: "Gloria Hallelujah",sans-serif;
+    margin: 0 10% 0 10%;
+    background-color:#F41A8A;
+    font-weight:bold;
+}
+.contactbox a{
+    text-decoration: none;
+    color:blue;
+}
+
+.contactbox a:hover{
+    text-decoration: none;
+    color:yellow;
+}
+/* Submitted */
+.submittedmessage{
+    font-family: "Gloria Hallelujah",sans-serif;
+    width:80%;
+    text-align:center;
+    color:white;
+}
+
+.submittedmessage button{
+background-color:red;
+margin-bottom:5%;
+padding:1%;
+}
+.submittedmessage button{
+    text-decoration: none;
+    color:white;
+    font-size:1.3rem;
+    font-family: "Gloria Hallelujah",sans-serif;
+}
+.submittedmessage button:hover{
+   color:yellow;
 }

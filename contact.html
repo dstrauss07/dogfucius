@@ -19,27 +19,31 @@
    </ul>    
    <div class="container">
         <h2>Contact DogFucius</h2>
+        <div class="contactbox">
+                <p>You can reach us by phone at 867-5309 &nbsp; &nbsp; &nbsp; &nbsp; ~  &nbsp; &nbsp; &nbsp; &nbsp; Email DogFucius at <a href="mailto:dogfuciuspetsitting@gmail.com?Subject=Pet%20Sitting" target="_top">dogfuciuspetsitting@gmail.com</a></p>
+        </div>
+
     <div class="emailform">
         <!-- This is an example form for CSS-HTML purposes, will not actually submit -->
         <form action="submitted.html" method="post">
             <div class="form-group">
-                    <label for="name" >Enter your name: </label>
+                    <label for="name" >Enter your name: </label><br>
                     <input type="text" name="name" id="name" placeholder="Your Name Here" required>
             </div>
             <div class="form-group">
-                    <label for="email"   >Email Address </label>
+                    <label for="email"   >Email Address </label><br>
                     <input type="email" name="email" id="email" placeholder="youremail@domain.com" required>
             </div>
             <div class="form-group">
-                    <label for="phone">Phone Number</label>
+                    <label for="phone">Phone Number</label><br>
                     <input type="tel" name="phone" id="phone" placeholder="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             </div>
             <div class="form-group">
-                    <label for="date" >What Day</label>
+                    <label for="date" >What Day</label><br>
                     <input type="date" name="date" id="date" placeholder="mm/dd/yyyy" required>
             </div>
             <div class="form-group">
-                    <label for="service">Service Requested</label>
+                    <label for="service">Service Requested</label><br>
                     <select name="service" id="service" required>
                             <option value="default" selected>Select A Service</option> 
                             <option value="am">Morning Visit- 20$</option> 
@@ -51,23 +55,19 @@
                     </select>
             </div>
             <div class="form-group">
-                    <label for="photos">Send Me Photos!</label>
+                    <label for="photos">Send Me Photos!</label><br>
                 <input type="checkbox" name="photos" id="photos">
             </div>
             <div class="form-group">
-                    <label for="comments">Comments</label>
+                    <label for="comments">Comments</label><br>
                     <textarea name="comments" id="comments"></textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group" id="submitbutton">
                     <input type="submit" value="Submit">
             </div>
         </form>
     </div>
-        <div class="contactbox">
-                <p>You can reach us by phone at 867-5309</p>
-                <p>Email DogFucius at dogfuciuspetsitting@gmail.com</p>
-        </div>
-
+    
     </body>
     <footer>
         Created by David Strauss -  Code Career Academy - HTML CSS Project        - 	    &copy; 2018
